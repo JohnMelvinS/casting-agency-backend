@@ -1,5 +1,7 @@
 # Casting Agency Backend
 
+Hosted URL (for Demo) : https://casting-agency-ksie.onrender.com
+
 ## Getting Started
 
 ### Install Dependencies
