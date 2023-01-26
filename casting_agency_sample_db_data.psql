@@ -1,0 +1,63 @@
+--
+-- casting_agency_sample_db_data
+--
+
+--
+-- Data for Name: actors; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.actors (id, name, gender, dob) FROM stdin;
+1	Paul Rudd	male	1969-04-06
+2	Evangeline Lilly	female	1979-08-03
+3	Michael B. Jordan	male	1987-02-09
+4	Tessa Thompson	female	1983-10-03
+5	Keanu Reeves	male	1964-09-02
+6	Laurence Fishburne	male	1961-07-30
+7	Chris Pratt	male	1979-06-21
+8	Anya Taylor-Joy	female	1996-04-16
+9	Zoe Saldana	female	1978-06-19
+10	Ryan Reynolds	male	1976-10-23
+11	Robert Downey Jr.	male	1965-04-04
+12	Charlize Theron	female	1975-08-07
+13	Scarlett Johansson	female	1984-11-22
+14	Thomas Cruise Mapother IV	male	1962-07-03
+\.
+
+
+--
+-- Data for Name: movies; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.movies (id, title, release_date) FROM stdin;
+1	Ant-Man and the Wasp: Quantumania	2023-02-17
+2	Creed III	2023-03-03
+3	John Wick: Chapter 4	2023-03-24
+4	The Super Mario Bros. Movie	2023-04-07
+5	Guardians of the Galaxy Vol. 3	2023-05-05
+6	Transformers: Rise of the Beasts	2023-06-09
+7	Indiana Jones and the Dial of Destiny	2023-06-30
+8	Mission: Impossible - Dead Reckoning - Part One	2023-07-14
+\.
+
+
+--
+-- Data for Name: casts; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.casts (movie_id, actor_id) FROM stdin;
+1	1
+1	2
+2	3
+2	4
+3	5
+3	6
+4	7
+4	8
+5	7
+5	9
+\.
+
+
+--
+-- casting_agency_sample_db_data complete
+--
