@@ -1,6 +1,6 @@
 # Casting Agency Backend
 
-Hosted URL (for Demo) : https://casting-agency-ksie.onrender.com
+Hosted URL (for Demo) : https://casting-agency-ksie.onrender.com/api/v1
 
 ## Getting Started
 
